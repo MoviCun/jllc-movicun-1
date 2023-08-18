@@ -1,0 +1,125 @@
+.paraderos {
+    width: 100%;
+    height: 80vh;
+    background-color: #96b0d15b;
+  
+}
+
+.container__paraderos {
+    padding-top: 50px;
+}
+.container__routes {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.title__routes {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-yellow);
+}
+
+.container__routes .item__routes {
+    display: flex;
+    background-color: var(--color-yellow);
+    color: rgb(27, 25, 25);
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+
+.item__routes i {
+    font-size: 1.4rem;
+    margin-right: 10px;
+}
+
+.item__routes h3 {
+    font-weight: 500;
+    font-size: 1.05rem;
+}
+
+
+.item__routes {
+    font-weight: 500;
+    transform: scale(0.9); 
+    transition: transform 300ms ease-in-out; 
+}
+
+
+.item__routes:hover {
+    transform: scale(1.05);
+    background-color: #f28c10;
+    cursor: pointer;
+}
+
+
+.item__routes:active {
+    transform: scale(.9);
+    transition: transform 300ms ease-in-out;
+}
+
+.container__routes-two {
+    display: none;
+}
+
+.item__routes-two {
+    background-color: var(--color-blue);
+    border-radius: 20px;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: #f0f0f0;
+}
+
+.container__paradero-two {
+    margin-top: 20px;
+    background-color: var(--color-yellow);
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 20px;
+    height: 40vh;
+}
+
+.btn-route {
+    padding: 10px 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--color-orange);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .container__routes {
+        display: none;
+    }
+
+    .container__routes-two {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 20px;
+
+    }
+
+    .item__routes-two {
+        padding: 10px 20px;
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
+    
+}
+
+@media screen and (max-width: 400px) {
+    
+}
